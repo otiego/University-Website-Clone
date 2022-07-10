@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/reeves.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+     </section>   
+<!----------------------------- blog page content---------------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit.Pellentesque aliquest turpis nulla, eleifend 
+            faucibus est sollicitudin ut. Maecenas ut venenatis ex, 
+            et dapibus purus. Donec sit amet nisl non justo
+            malesuada fermentum. Donec eget felis dolor. Suspendisse
+            condimentum vestibulum ex ac cursus. Nam pharentra 
+            viverra efficitur. Sed pellentesque luctus arcu, quis
+            finibus nibh luctus mattis</p>
+            <br>
+            <p>Social movements have a long history that has evolved 
+            in lockstep with societal and technological advancements. 
+            Social movements have new avenues of expression and organization 
+            thanks to the rise of the press and the spread of television. As 
+            a result, social movements have met, appropriated, and modified 
+            technical instruments and supports that at the same time 
+            offered and hindered grassroots political engagement. 
+            There are many ways that technology and social movements
+            interact. Technology directly impacts social movement 
+            mobilization structures, organizational patterns, and 
+            protest activities at the instrumental level.
+            </p>
+            <br>
+            <p>New technical perspectives are frequently included
+            in alternative systems of meaning due to socia
+            movements' symbolic influence on discussions about 
+            technology and its place in society. Most people 
+            learn about movements through social media because 
+            mainstream media either ignores them or does so in a 
+            way that reinforces the status quo. When equalizing 
+            technology is made available, many new movements 
+            acquire traction</p>
+            <br>
+            <p>In recent years, technology and social media 
+            have improved how people get messages. People 
+            now have more options for connecting than they did 
+            in the past. What is the cost of social acceptance? 
+            Throughout the world, technology and social media 
+            are well-known for how ideas and news can travel. It 
+            is now easier for social movements to convey their message 
+            and attract new members over the internet. To further a 
+            cause, accurate and incorrect data may be disseminated 
+            widely, and many individuals have instant access to 
+            global news sources. To highlight those key events taking 
+            place in the community, social media also permits 
+            hashtags and warnings of upcoming activities and the 
+            promotion of select events to the general public</p>
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Software Engineering</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Robotics</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Information Technology</span>
+                <span>56</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>112</span>
+            </div>
+            <div>
+                <span>Engineering</span>
+                <span>26</span>
+            </div>
+            <div>
+                <span>Medicine</span>
+                <span>10</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------ Footer Section --------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque aliquest turpis nulla, eleifend faucibus est<br> 
+    sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"> </i> by Revees Software Company</p>
+</section>
+
+<!-- ---JavaScript for Toggle Menu-- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
